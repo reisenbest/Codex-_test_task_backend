@@ -1,3 +1,4 @@
+
 from django.shortcuts import render, redirect
 from .forms import MetricForm
 from .models import *
@@ -113,4 +114,5 @@ def visualize_metrics(request, metric_id_1, metric_id_2):
 
 
 # Вызываем функцию для добавления хардкодированных данных
+
 add_hardcoded_metrics()
